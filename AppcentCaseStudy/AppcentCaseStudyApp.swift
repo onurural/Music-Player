@@ -11,7 +11,14 @@ import SwiftUI
 struct AppcentCaseStudyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MusicCategoryView()
         }
     }
 }
+
+
+//struct ContentView: View {
+//    var body: some View {
+
+//    }
+//}
