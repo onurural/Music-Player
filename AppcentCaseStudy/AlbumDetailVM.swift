@@ -88,6 +88,12 @@ final class AlbumDetailVM: ObservableObject {
         }
     }
     
+    public func toggleIsPlayingFavorite(_ trackID: Int) {
+        if let index = favouriteTracks.firstIndex(where: { $0.id == trackID }) {
+            favouriteTracks[index].isPlaying.toggle()
+        }
+    }
+    
     public func getFavouriteTracks() {
         if
             let data = defaults.object(forKey: favoriteTracksKey) as? Data,

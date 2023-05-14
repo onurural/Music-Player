@@ -30,7 +30,10 @@ struct FavouriteTracksView: View {
                                 HStack {
                                     Button(
                                         action: {
-                                            vm.playAudio(fromURL: previewURL)
+                                            if let id = track.id {
+                                                vm.toggleIsPlayingFavorite(id)
+                                                track.isPlaying ? vm.playAudio(fromURL: previewURL) : vm.stopAudio()
+                                            }
                                         },
                                         label: {
                                             VStack {
