@@ -27,6 +27,10 @@
 		4C28B9292A0D66E7007A4B88 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C28B9282A0D66E7007A4B88 /* AlbumCell.swift */; };
 		4C28B92B2A0D76DE007A4B88 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C28B92A2A0D76DE007A4B88 /* Album.swift */; };
 		4C28B92D2A0E5CD4007A4B88 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C28B92C2A0E5CD4007A4B88 /* Extensions.swift */; };
+		4C9CCE5E2A10FB2B00CD5749 /* Artists-SS.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9CCE5D2A10FB2A00CD5749 /* Artists-SS.png */; };
+		4C9CCE602A10FB2E00CD5749 /* FavoriteTracks-SS.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9CCE5F2A10FB2E00CD5749 /* FavoriteTracks-SS.png */; };
+		4C9CCE622A10FB3200CD5749 /* AlbumDetail-SS.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9CCE612A10FB3200CD5749 /* AlbumDetail-SS.png */; };
+		4C9CCE642A10FB3600CD5749 /* Genre-SS.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9CCE632A10FB3600CD5749 /* Genre-SS.png */; };
 		4CE093372A0D051E00311552 /* AppcentCaseStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE093362A0D051E00311552 /* AppcentCaseStudyApp.swift */; };
 		4CE093392A0D051E00311552 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE093382A0D051E00311552 /* ContentView.swift */; };
 		4CE0933B2A0D051F00311552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE0933A2A0D051F00311552 /* Assets.xcassets */; };
@@ -54,6 +58,10 @@
 		4C28B9282A0D66E7007A4B88 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
 		4C28B92A2A0D76DE007A4B88 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		4C28B92C2A0E5CD4007A4B88 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4C9CCE5D2A10FB2A00CD5749 /* Artists-SS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artists-SS.png"; sourceTree = "<group>"; };
+		4C9CCE5F2A10FB2E00CD5749 /* FavoriteTracks-SS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FavoriteTracks-SS.png"; sourceTree = "<group>"; };
+		4C9CCE612A10FB3200CD5749 /* AlbumDetail-SS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlbumDetail-SS.png"; sourceTree = "<group>"; };
+		4C9CCE632A10FB3600CD5749 /* Genre-SS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Genre-SS.png"; sourceTree = "<group>"; };
 		4CE093332A0D051E00311552 /* AppcentCaseStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppcentCaseStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE093362A0D051E00311552 /* AppcentCaseStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppcentCaseStudyApp.swift; sourceTree = "<group>"; };
 		4CE093382A0D051E00311552 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -136,6 +144,10 @@
 		4CE093352A0D051E00311552 /* AppcentCaseStudy */ = {
 			isa = PBXGroup;
 			children = (
+				4C9CCE632A10FB3600CD5749 /* Genre-SS.png */,
+				4C9CCE612A10FB3200CD5749 /* AlbumDetail-SS.png */,
+				4C9CCE5D2A10FB2A00CD5749 /* Artists-SS.png */,
+				4C9CCE5F2A10FB2E00CD5749 /* FavoriteTracks-SS.png */,
 				4C28B91F2A0D217B007A4B88 /* ViewComponents */,
 				4C28B9162A0D0B71007A4B88 /* Models */,
 				4C28B9152A0D0B6A007A4B88 /* ViewModels */,
@@ -217,7 +229,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9CCE642A10FB3600CD5749 /* Genre-SS.png in Resources */,
+				4C9CCE622A10FB3200CD5749 /* AlbumDetail-SS.png in Resources */,
 				4CE0933E2A0D051F00311552 /* Preview Assets.xcassets in Resources */,
+				4C9CCE602A10FB2E00CD5749 /* FavoriteTracks-SS.png in Resources */,
+				4C9CCE5E2A10FB2B00CD5749 /* Artists-SS.png in Resources */,
 				4CE0933B2A0D051F00311552 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
